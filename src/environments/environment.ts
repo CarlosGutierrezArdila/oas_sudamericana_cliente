@@ -11,3 +11,5 @@
 export const environment = {
   production: false,
 };
+
+export const lugaresURL = 'http://localhost:8081/v1/';
