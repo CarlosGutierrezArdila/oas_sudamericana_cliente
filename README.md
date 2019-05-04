@@ -2,6 +2,27 @@
 
 proyecto clonado de ngx admin para desarrollar el cliente de la prueba de gestion de liga sudamericana de la oficina asesora de sistemas
 
+- este proyecto hace parte del cliente de la siguiente arquitectura de aplicaciones:
+
+![arquitectura](arquitectura.png)
+
+- implementa un cliente en angular con ayuda de la plantilla ngx admin para implementar la siguiente vista: 
+
+![vista](vista_paises.png)
+
+- Para desplegar el cliente es necesario:
+- tener la base de datos creada
+
+![bd](bd.png)
+- tener las APIS CRUD [lugares](https://github.com/CarlosGutierrezArdila/gestion_lugares_crud) [equipos](https://github.com/CarlosGutierrezArdila/gestion_equipos_crud) , [liga](https://github.com/CarlosGutierrezArdila/liga_sudamericana_crud) y [MID](https://github.com/CarlosGutierrezArdila/oas_sudamericana_mid) de los servicios corriendo
+
+- luego se ejecuta el comando: 
+
+```
+ ng serve -o 
+```
+- [licencia](LICENSE) 
+
 # Admin template based on Angular 7+, Bootstrap 4 and <a href="https://github.com/akveo/nebular">Nebular</a>
 <a target="_blank" href="http://akveo.com/ngx-admin/pages/dashboard?theme=corporate&utm_source=github&utm_medium=ngx_admin_readme&utm_campaign=main_pic"><img src="https://i.imgur.com/OIL7rt8.png"/></a>
 
